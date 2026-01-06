@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Endangered Extinct Animals</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+   @font-face {
+    font-family: 'dana';
+    src: url(../dana-fonts/Dana-Medium.ttf);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; 
+  font-family: 'dana';
+  }
+
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e6e6e6;
+  }
+
+  h1 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #00b4d8;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #90e0ef;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+
+  
+  .hero {
+    width: min(1100px, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+  }
+
+  .boxes {
+      display: flex;
+        gap:30px;
+  }
+
+  .box {
+    width: 260px;
+    height: 260px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(6,36,18,0.35);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: .18s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    padding: 10px;
+          text-decoration: none;
+
+  }
+
+  .box:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 18px 40px rgba(6,36,18,0.45);
+  }
+ 
+  .animal {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+    border: 3px solid rgba(255,255,255,0.12);
+  }
+
+  .left-animal {
+    transform: translateX(-40px) translateY(20px) rotate(-6deg);
+  }
+
+  .right-animal {
+    transform: translateX(40px) translateY(20px) rotate(6deg);
+  }
+
+  @media (max-width: 800px) {
+    .hero { flex-direction: column; gap: 20px; }
+    .boxes { flex-direction: column; gap: 18px; }
+    .box { width: 220px; height: 220px; }
+    .animal { width: 120px; height: 120px; transform: none; }
+    .left-animal, .right-animal { transform: none; }
+  }
+    .subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px; 
+  color:white;  
+  text-align: center;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
+</style>
+</head>
+
+<body>
+
+    <h1>حیوانات</h1>
+<h2 class="subtitle">👇🏻با حیوانات عجیب آشنا شوید </h2>
+  <div class="hero">
+
+    <img class="animal left-animal"
+      src="image/Tiger-main.png">
+<div class="boxes">
+  <a href="drangraz.html" class="box">در حال انقراض</a>
+  <a href="angraz.html" class="box">منقرض شده</a>
+</div>
+ 
+    <img class="animal right-animal"
+      src="image/closeup-shot-of-a-giant-panda-bear.jpg">
+
+  </div>
+
+</body>
+</html>

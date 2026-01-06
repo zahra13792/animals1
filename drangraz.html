@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>حیوانات در خطر انقراض</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: #e6e6e6;
+    padding-bottom: 40px;
+  }
+
+  .navbar {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, #0f3460, #1a1a2e);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 18px 0;
+    z-index: 1000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #00b4d8;
+  }
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+  }
+.navbar a:hover {
+    background: rgba(0, 180, 216, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 180, 216, 0.3);
+  }
+  h1.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 40px 0 20px;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  }
+
+  .animal-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  }
+
+  .animal-section img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+
+  .animal-section p {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  @media (max-width: 800px) {
+    .animal-section { padding: 15px; }
+    .navbar { flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <a href="#tiger">🦍گوریل کوهی</a>
+    <a href="#panda">🐟واکیتا</a>
+    <a href="#rhino"> 🦏کرگدن جاوه ای</a>
+    <a href="#elephant">🐢لاکپشت های دریایی</a>
+  </nav>
+
+  
+  <div class="animal-section" id="tiger">
+    <h1 class="section-title">گوریل کوهی</h1>
+    <img src="image/%DA%AF%D9%88%D8%B1%DB%8C%D9%84.jpg" alt="گوریل کوهی">
+    <p>
+        گوریل های کوهی، گونه های در معرض خطر انقراض هستند که تنها در مرکز آفریقا (رواندا، اوگاندا و جمهوری دموکراتیک کنگو) یافت می شوند. پس از بازگشت از لبه انقراض با تعدادی کمتر از ۲۵۴، تلاش های حفاظتی گسترده منجر به افزایش تدریجی شمار آنها شده است و اخیراً جمعیت گوریل ها به بیشتر از ۱۰۰۰ عدد رسیده است. بااین حال، این اعداد بسیار بسیار پایین بوده و به تلاش‌های حفاظتی برای بقا وابسته هستند
+    </p>
+  </div>
+
+  
+  <div class="animal-section" id="panda">
+    <h1 class="section-title">واکیتا</h1>
+    <img src="image/%D9%88%D8%A7%DA%A9%DB%8C%D8%AA%D8%A7.jpg" alt="واکیتا ">
+    <p>
+
+  واکیتا که به عنوان دلفین بندر گلف کالیفرنیا نیز شناخته می شود، کوچک ترین و یکی از در حال انقراض ترین پستانداران دریایی است. این گونه با حدود 250 فرد باقی مانده، در زیستگاه محدود خود در آب های ساحلی شبه جزیره باخا در مکزیک زندگی می کند
+    </p>
+  </div>
+
+
+  <div class="animal-section" id="rhino">
+    <h1 class="section-title"> کرگدن جاوه ای</h1>
+    <img src="image/%DA%A9%D8%B1%DA%AF%D8%AF%D9%86.jpg" alt=" کرگدن جاوه ای">
+    <p>
+        کرگدن‌های جاوه‌ای یکی از نادرترین پستانداران زمین، با هر نفس به مرز انقراض نزدیک‌تر می‌شوند. اکنون از جمعیت این گونه‌ی منحصر‌به‌فرد تنها ۵۰ عضو باقی مانده و شکار غیرقانونی، همراه با نابودی زیستگاه، بقای آن‌ها را به‌شدت تهدید می‌کند
+    </p>
+  </div>
+
+  
+  <div class="animal-section" id="elephant">
+    <h1 class="section-title">لاکپشت دریایی</h1>
+    <img src="image/%D9%84%D8%A7%DA%A9%D9%BE%D8%B4%D8%AA.jpg" alt="لاکپشت دریایی">
+    <p>
+هفت گونه لاک پشت دریایی ، سه گونه لاک پشت سبز ، لاک پشت پوزه عقابی و لاک پشت ریدلی کمپ در فهرست قرمز گونه های در خطر انقراض سازمان غیرانتفاعی اتحادیه بین المللی حفاظت از طبیعت قرار دارند . سه گونه دیگر لاک پشت چرمی ، لاک پشت زیتونی و لاک پشت سرخ به عنوان گونه های آسیب پذیر فهرست شده اند
+ </p>
+  </div>
+
+</body>
+</html>
